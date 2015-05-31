@@ -1,0 +1,54 @@
+/*
+###########################
+###Heavy Usage of SMACCS###
+###########################
+*/
+/*
+####################
+#### UTILITIES ##### // stuff that one would use for z-index, proper saturation, border box, animations, etc.
+####################
+*/
+/*
+####################
+###### VARS #######   // different sass variables such as colors, fonts, and media queries
+####################
+*/
+/*
+####################
+####### BASE ####### // All default styling goes here
+####################
+*/
+/*
+####################
+##### Layouts ###### // major layout styles in your stylesheet
+####################
+*/
+/*
+####################
+##### Modules ###### //any re-usable elements in your page
+####################
+*/
+/*
+####################
+###### STATE #######   // different states of modules, such as class based statues
+####################   // :hover, or media queries
+*/
+body {
+  background-color: yellow;
+  width: 100%;
+  height: 100%; }
+
+#drawing_container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 500px; }
+
+#canvas {
+  display: block;
+  margin-top: 100px;
+  margin-left: 180px; }
