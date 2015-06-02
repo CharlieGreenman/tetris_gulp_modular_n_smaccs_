@@ -29,6 +29,11 @@
 ####################
 */
 /*
+##########################
+##### Tetris pieces ######
+##########################
+*/
+/*
 ####################
 ###### STATE #######   // different states of modules, such as class based statues
 ####################   // :hover, or media queries
@@ -48,7 +53,7 @@ body {
   width: 500px;
   height: 500px; }
 
-#canvas {
+canvas {
   display: block;
-  margin-top: 100px;
-  margin-left: 180px; }
+  margin: auto;
+  border: 1px solid black; }

@@ -28,8 +28,9 @@ body {
   height: 500px;
 }
 
-#canvas{
-  display: block;
-  margin-top: 100px;
-  margin-left: 180px;
+
+canvas {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
 }

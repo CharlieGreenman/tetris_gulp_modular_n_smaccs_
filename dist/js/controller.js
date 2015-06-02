@@ -1,0 +1,1 @@
+document.body.onkeydown=function(e){var o={37:"left",39:"right",40:"down",38:"rotate"};"undefined"!=typeof o[e.keyCode]&&(keyPress(o[e.keyCode]),render())};

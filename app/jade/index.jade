@@ -1,10 +1,7 @@
 doctype
-include ../jade/includes/_head.jade
-
+head
+  title HTML5 Tetris
+  link(rel="stylesheet", href="css/main.css")
 body
-    #drawing_container
-      h1.
-        Welcome to the Greastest, Simplest, Prototype ever!!!
-        Gulp
-      canvas(id ="canvas" width = "150" height = "150")
-
+  #drawing_container
+    canvas(id = "canvas" width = "300" height = "600")
