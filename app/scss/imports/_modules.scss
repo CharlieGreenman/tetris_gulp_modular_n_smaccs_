@@ -14,9 +14,88 @@
 ##########################
 */
 
-//1. 4 pieces stacked looks like --> ####
+//variables
 
 
+//used the following website to get the following accomplished
+//1.1
+//Piece I, A.K.A. straight, stick or long
+
+.piece-i{
+  height: $tetris-block  * 4;
+  width: $tetris-block;
+}
+
+//1.2
+//Piece O, A.K.A. square, or block
+
+.piece-o{
+  height: $tetris-block  * 4;
+  width: $tetris-block * 4;
+}
+
+//1.3
+//Piece T, A.K.A. The Tetris block, or T turn
+
+.piece-t{
+  height: $tetris-block;
+  width: $tetris-block * 3;
+}
+
+.piece-t:before{
+  height: $tetris-block;
+  width: $tetris-block;
+}
+
+//1.4
+//Piece S, A.K.A. inverse skew, or right snake
+
+.piece-s{
+  height: $tetris-block;
+  width: $tetris-block * 2;
+}
+
+.piece-s:before{
+  height: $tetris-block;
+  width: $tetris-block * 2;
+}
+
+//1.5
+// Piece Z, A.K.A. inverse skew, or right snake
+
+.piece-z{
+  height: $tetris-block;
+  width: $tetris-block * 2;
+}
+
+.piece-z:before{
+  height: $tetris-block;
+  width: $tetris-block * 2;
+}
+
+//1.6
+//Piece J A.K.A. gamma, inverse L, or left gun
+.piece-j{
+  height: $tetris-block;
+  width: $tetris-block * 3;
+}
+
+.piece-j:before{
+  height: $tetris-block;
+  width: $tetris-block ;
+}
+
+//1.7
+//Piece L A.K.A. gamma, inverse L, or left gun
+.piece-l{
+  height: $tetris-block;
+  width: $tetris-block * 3;
+}
+
+.piece-l:before{
+  height: $tetris-block;
+  width: $tetris-block ;
+}
 
 
 

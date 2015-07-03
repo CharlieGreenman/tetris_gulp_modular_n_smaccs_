@@ -1,1 +1,8 @@
-function domloaded(){{var d=document.getElementById("canvas");d.getContext("2d")}}document.addEventListener("DOMContentLoaded",domloaded,!1),setInterval(domloaded,150);
+'use strict';
+
+document.addEventListener('DOMContentLoaded', domloaded, false);
+function domloaded() {
+    var c = document.getElementById('canvas');
+    var ctx = c.getContext('2d');
+}
+setInterval(domloaded, 150);

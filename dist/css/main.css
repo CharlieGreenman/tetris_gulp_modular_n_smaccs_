@@ -18,11 +18,27 @@
 ####### BASE ####### // All default styling goes here
 ####################
 */
+body {
+  background-color: yellow;
+  width: 100%;
+  height: 100%; }
+
 /*
 ####################
 ##### Layouts ###### // major layout styles in your stylesheet
 ####################
 */
+#tetris_container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 500px;
+  border: 1px solid black; }
+
 /*
 ####################
 ##### Modules ###### //any re-usable elements in your page
@@ -33,27 +49,56 @@
 ##### Tetris pieces ######
 ##########################
 */
+.piece-i {
+  height: 20px;
+  width: 5px; }
+
+.piece-o {
+  height: 20px;
+  width: 20px; }
+
+.piece-t {
+  height: 5px;
+  width: 15px; }
+
+.piece-t:before {
+  height: 5px;
+  width: 5px; }
+
+.piece-s {
+  height: 5px;
+  width: 10px; }
+
+.piece-s:before {
+  height: 5px;
+  width: 10px; }
+
+.piece-z {
+  height: 5px;
+  width: 10px; }
+
+.piece-z:before {
+  height: 5px;
+  width: 10px; }
+
+.piece-j {
+  height: 5px;
+  width: 15px; }
+
+.piece-j:before {
+  height: 5px;
+  width: 5px; }
+
+.piece-l {
+  height: 5px;
+  width: 15px; }
+
+.piece-l:before {
+  height: 5px;
+  width: 5px; }
+
 /*
 ####################
 ###### STATE #######   // different states of modules, such as class based statues
 ####################   // :hover, or media queries
 */
-body {
-  background-color: yellow;
-  width: 100%;
-  height: 100%; }
-
-#drawing_container {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 500px;
-  height: 500px; }
-
-canvas {
-  display: block;
-  margin: auto;
-  border: 1px solid black; }
